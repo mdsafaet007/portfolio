@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>AI/ML Researcher &amp; Software Engineer Portfolio</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#2b4bee",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#0a0c14",
+                        "surface-dark": "#161b2e",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        .glass-card {
+            background: rgba(22, 27, 46, 0.6);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .hero-gradient {
+            background: radial-gradient(circle at 50% 50%, rgba(43, 75, 238, 0.15) 0%, rgba(10, 12, 20, 0) 70%);
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 selection:bg-primary/30">
+<!-- Top Navigation Bar -->
+<header class="fixed top-0 left-0 right-0 z-50 bg-background-dark/80 backdrop-blur-md border-b border-white/5">
+<nav class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+<div class="flex items-center gap-2">
+<div class="size-8 bg-primary rounded flex items-center justify-center text-white">
+<span class="material-symbols-outlined text-xl">terminal</span>
+</div>
+<span class="font-bold text-lg tracking-tight">Portfolio</span>
+</div>
+<div class="hidden md:flex items-center gap-8">
+<a class="text-sm font-medium text-slate-400 hover:text-primary transition-colors" href="#about">About</a>
+<a class="text-sm font-medium text-slate-400 hover:text-primary transition-colors" href="#projects">Projects</a>
+<a class="text-sm font-medium text-slate-400 hover:text-primary transition-colors" href="#research">Research</a>
+<a class="text-sm font-medium text-slate-400 hover:text-primary transition-colors" href="#skills">Skills</a>
+<a class="px-4 py-2 bg-primary rounded-lg text-sm font-bold hover:bg-primary/90 transition-all" href="#contact">Contact Me</a>
+</div>
+<button class="md:hidden text-white">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</nav>
+</header>
+<main class="relative">
+<!-- Hero Section -->
+<section class="relative pt-32 pb-20 px-6 overflow-hidden hero-gradient">
+<div class="max-w-7xl mx-auto flex flex-col items-center text-center">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-bold uppercase tracking-wider mb-6">
+<span class="relative flex h-2 w-2">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
+</span>
+                    Available for Research &amp; Engineering Roles
+                </div>
+<h1 class="text-5xl md:text-7xl font-black mb-6 tracking-tight leading-tight">
+                    CS Student <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-blue-400">ML Specialist</span>
+</h1>
+<p class="text-xl md:text-2xl font-medium text-slate-400 mb-4 max-w-3xl">
+                    Machine Learning Enthusiast | AI Researcher | Aspiring Software Engineer
+                </p>
+<p class="text-lg text-slate-500 max-w-2xl mb-10 leading-relaxed">
+                    Dedicated to building intelligent systems that solve complex real-world problems through data-driven insights and explainable AI (XAI).
+                </p>
+<div class="flex flex-wrap justify-center gap-4">
+<a class="px-8 py-4 bg-primary text-white font-bold rounded-xl hover:shadow-[0_0_20px_rgba(43,75,238,0.4)] transition-all flex items-center gap-2" href="#projects">
+                        View Projects <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+<a class="px-8 py-4 bg-surface-dark border border-white/10 text-white font-bold rounded-xl hover:bg-surface-dark/80 transition-all flex items-center gap-2" href="#">
+                        Download CV <span class="material-symbols-outlined text-sm">download</span>
+</a>
+</div>
+</div>
+<!-- Abstract background shape -->
+<div class="absolute -top-24 -right-24 size-[500px] bg-primary/5 rounded-full blur-[120px]"></div>
+<div class="absolute -bottom-24 -left-24 size-[500px] bg-blue-600/5 rounded-full blur-[120px]"></div>
+</section>
+<!-- About Me Section -->
+<section class="py-24 px-6 bg-background-dark" id="about">
+<div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
+<div class="relative group">
+<div class="absolute -inset-1 bg-gradient-to-r from-primary to-blue-500 rounded-xl blur opacity-25 group-hover:opacity-40 transition duration-1000"></div>
+<div class="relative aspect-square rounded-xl overflow-hidden glass-card p-2">
+<div class="w-full h-full bg-center bg-cover rounded-lg" data-alt="Abstract circuit board design representing AI and technology" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuA_vUb4Kb6YUyY_eYherg91USYrMlibSlp6LxZI_S_brTP9-09o1i3P8glWO1mOCgWM5IhY0p89bWSjU9BJUCNfzTdQJ7nnZQ9KnAik5xnt_RE8FykTPuO6t6sl5Gl9na-eMRabO83Kht0EKDlisVcXhABWbyOCfnncIqxZ-SQjNnPwhlTP3sLmHChdH41URzptcRRyH_wRzRl8n5-OvDTrMuwj3AQh8RO9GDR8MDDPfk8jcey_fO1yaIBHcTPHYsz5IdokaRbw_A')">
+</div>
+</div>
+</div>
+<div>
+<h2 class="text-3xl font-bold mb-6 flex items-center gap-3">
+<span class="material-symbols-outlined text-primary">person</span> About Me
+                    </h2>
+<div class="space-y-6 text-slate-400 leading-relaxed text-lg">
+<p>
+                            I am a Computer Science student with a strong academic record and a high CGPA, specializing in <span class="text-white font-medium">Machine Learning and AI</span>. My passion lies in understanding not just how models work, but why they make the decisions they do.
+                        </p>
+<p>
+                            My research interests are at the intersection of <span class="text-primary font-medium">ML, Explainable AI (XAI), and Gaming Analytics</span>. I enjoy dissecting complex datasets to find patterns that improve user experiences and system efficiency.
+                        </p>
+<p>
+                            My ultimate career goal is to contribute to cutting-edge research at a global tech giant or within a dedicated research institution, pushing the boundaries of what's possible with intelligent systems.
+                        </p>
+</div>
+<div class="mt-8 flex gap-6">
+<div>
+<div class="text-2xl font-bold text-white">3.9+</div>
+<div class="text-xs uppercase tracking-widest text-slate-500">CGPA</div>
+</div>
+<div class="w-px h-12 bg-white/10"></div>
+<div>
+<div class="text-2xl font-bold text-white">4+</div>
+<div class="text-xs uppercase tracking-widest text-slate-500">ML Projects</div>
+</div>
+<div class="w-px h-12 bg-white/10"></div>
+<div>
+<div class="text-2xl font-bold text-white">1</div>
+<div class="text-xs uppercase tracking-widest text-slate-500">Thesis</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Projects Section -->
+<section class="py-24 px-6 relative" id="projects">
+<div class="max-w-7xl mx-auto">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
+<div>
+<h2 class="text-3xl font-bold mb-2">Featured Projects</h2>
+<p class="text-slate-500">A showcase of my technical expertise across multiple domains.</p>
+</div>
+<a class="text-primary font-bold text-sm hover:underline flex items-center gap-1" href="#">
+                        View all on GitHub <span class="material-symbols-outlined text-sm">open_in_new</span>
+</a>
+</div>
+<div class="grid md:grid-cols-2 gap-8">
+<!-- Project 1 -->
+<div class="glass-card rounded-xl p-8 group hover:-translate-y-1 transition-all duration-300">
+<div class="flex justify-between items-start mb-6">
+<div class="p-3 bg-primary/10 rounded-lg text-primary">
+<span class="material-symbols-outlined">psychology</span>
+</div>
+<a class="text-slate-500 hover:text-white transition-colors" href="#">
+<span class="material-symbols-outlined">code</span>
+</a>
+</div>
+<h3 class="text-xl font-bold mb-3 text-white">Rage Quit Prediction using ML</h3>
+<p class="text-slate-400 mb-6 text-sm leading-relaxed">
+                            Developed a predictive model to identify potential player abandonment in competitive gaming environments using behavioral telemetry data and SHAP values for interpretability.
+                        </p>
+<div class="flex flex-wrap gap-2 mb-6">
+<span class="px-3 py-1 bg-white/5 rounded text-[10px] font-bold uppercase tracking-wider text-slate-400">Python</span>
+<span class="px-3 py-1 bg-white/5 rounded text-[10px] font-bold uppercase tracking-wider text-slate-400">Scikit-learn</span>
+<span class="px-3 py-1 bg-white/5 rounded text-[10px] font-bold uppercase tracking-wider text-slate-400">SHAP</span>
+</div>
+<button class="w-full py-3 bg-white/5 hover:bg-primary transition-all rounded-lg text-sm font-bold text-white">View Details</button>
+</div>
+<!-- Project 2 -->
+<div class="glass-card rounded-xl p-8 group hover:-translate-y-1 transition-all duration-300">
+<div class="flex justify-between items-start mb-6">
+<div class="p-3 bg-blue-400/10 rounded-lg text-blue-400">
+<span class="material-symbols-outlined">analytics</span>
+</div>
+<a class="text-slate-500 hover:text-white transition-colors" href="#">
+<span class="material-symbols-outlined">code</span>
+</a>
+</div>
+<h3 class="text-xl font-bold mb-3 text-white">VCT Esports Data Analysis</h3>
+<p class="text-slate-400 mb-6 text-sm leading-relaxed">
+                            Comprehensive exploratory data analysis of professional Valorant matches, identifying meta-trends, agent win rates, and economy-to-win correlation metrics.
+                        </p>
+<div class="flex flex-wrap gap-2 mb-6">
+<span class="px-3 py-1 bg-white/5 rounded text-[10px] font-bold uppercase tracking-wider text-slate-400">Pandas</span>
+<span class="px-3 py-1 bg-white/5 rounded text-[10px] font-bold uppercase tracking-wider text-slate-400">Matplotlib</span>
+<span class="px-3 py-1 bg-white/5 rounded text-[10px] font-bold uppercase tracking-wider text-slate-400">Seaborn</span>
+</div>
+<button class="w-full py-3 bg-white/5 hover:bg-primary transition-all rounded-lg text-sm font-bold text-white">View Details</button>
+</div>
+<!-- Project 3 -->
+<div class="glass-card rounded-xl p-8 group hover:-translate-y-1 transition-all duration-300">
+<div class="flex justify-between items-start mb-6">
+<div class="p-3 bg-green-400/10 rounded-lg text-green-400">
+<span class="material-symbols-outlined">restaurant</span>
+</div>
+<a class="text-slate-500 hover:text-white transition-colors" href="#">
+<span class="material-symbols-outlined">code</span>
+</a>
+</div>
+<h3 class="text-xl font-bold mb-3 text-white">Flask Canteen Management</h3>
+<p class="text-slate-400 mb-6 text-sm leading-relaxed">
+                            A full-stack web application designed for campus cafeterias, featuring automated billing, inventory tracking, and student wallet integration.
+                        </p>
+<div class="flex flex-wrap gap-2 mb-6">
+<span class="px-3 py-1 bg-white/5 rounded text-[10px] font-bold uppercase tracking-wider text-slate-400">Flask</span>
+<span class="px-3 py-1 bg-white/5 rounded text-[10px] font-bold uppercase tracking-wider text-slate-400">SQLite</span>
+<span class="px-3 py-1 bg-white/5 rounded text-[10px] font-bold uppercase tracking-wider text-slate-400">Tailwind CSS</span>
+</div>
+<button class="w-full py-3 bg-white/5 hover:bg-primary transition-all rounded-lg text-sm font-bold text-white">View Details</button>
+</div>
+<!-- Project 4 -->
+<div class="glass-card rounded-xl p-8 group hover:-translate-y-1 transition-all duration-300">
+<div class="flex justify-between items-start mb-6">
+<div class="p-3 bg-purple-400/10 rounded-lg text-purple-400">
+<span class="material-symbols-outlined">sensors</span>
+</div>
+<a class="text-slate-500 hover:text-white transition-colors" href="#">
+<span class="material-symbols-outlined">code</span>
+</a>
+</div>
+<h3 class="text-xl font-bold mb-3 text-white">IoT Environmental Monitoring</h3>
+<p class="text-slate-400 mb-6 text-sm leading-relaxed">
+                            Hardware-software integration project using 8051 microprocessor to monitor humidity and temperature, transmitting data to a real-time dashboard.
+                        </p>
+<div class="flex flex-wrap gap-2 mb-6">
+<span class="px-3 py-1 bg-white/5 rounded text-[10px] font-bold uppercase tracking-wider text-slate-400">Assembly</span>
+<span class="px-3 py-1 bg-white/5 rounded text-[10px] font-bold uppercase tracking-wider text-slate-400">C++</span>
+<span class="px-3 py-1 bg-white/5 rounded text-[10px] font-bold uppercase tracking-wider text-slate-400">IoT</span>
+</div>
+<button class="w-full py-3 bg-white/5 hover:bg-primary transition-all rounded-lg text-sm font-bold text-white">View Details</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Research Spotlight Section -->
+<section class="py-24 px-6 bg-surface-dark/30" id="research">
+<div class="max-w-7xl mx-auto">
+<div class="bg-gradient-to-br from-primary/20 via-surface-dark to-surface-dark border border-primary/20 rounded-2xl p-8 md:p-12 relative overflow-hidden">
+<div class="relative z-10 grid md:grid-cols-3 gap-12">
+<div class="md:col-span-2">
+<div class="inline-block px-3 py-1 bg-primary/20 rounded text-primary text-xs font-bold uppercase tracking-widest mb-4">Thesis Paper</div>
+<h2 class="text-3xl md:text-4xl font-bold mb-6 leading-tight">
+                                Early Prediction and Explanation of Player Abandonment using ML-XAI
+                            </h2>
+<p class="text-slate-400 text-lg mb-8 leading-relaxed">
+                                This research addresses the problem of 'churn' in digital platforms. By combining XGBoost classifiers with Explainable AI frameworks, we not only predict when a user will leave but explain the underlying behavioral drivers, allowing for targeted intervention.
+                            </p>
+<div class="grid grid-cols-2 gap-4">
+<div class="glass-card p-4 rounded-lg">
+<div class="text-primary text-2xl font-black mb-1">94%</div>
+<div class="text-xs text-slate-500 uppercase font-bold">Model Accuracy</div>
+</div>
+<div class="glass-card p-4 rounded-lg">
+<div class="text-primary text-2xl font-black mb-1">XGBoost</div>
+<div class="text-xs text-slate-500 uppercase font-bold">Core Algorithm</div>
+</div>
+</div>
+</div>
+<div class="flex flex-col justify-center">
+<h3 class="text-xl font-bold mb-6 flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">psychology</span> Research Stack
+                            </h3>
+<ul class="space-y-4">
+<li class="flex items-center gap-3 text-slate-400">
+<span class="material-symbols-outlined text-primary text-sm">check_circle</span>
+                                    Python (Scientific Stack)
+                                </li>
+<li class="flex items-center gap-3 text-slate-400">
+<span class="material-symbols-outlined text-primary text-sm">check_circle</span>
+                                    Scikit-learn &amp; XGBoost
+                                </li>
+<li class="flex items-center gap-3 text-slate-400">
+<span class="material-symbols-outlined text-primary text-sm">check_circle</span>
+                                    LIME &amp; SHAP Libraries
+                                </li>
+<li class="flex items-center gap-3 text-slate-400">
+<span class="material-symbols-outlined text-primary text-sm">check_circle</span>
+                                    Statistical Data Analysis
+                                </li>
+</ul>
+<button class="mt-8 px-6 py-3 bg-white text-black font-bold rounded-lg hover:bg-slate-200 transition-colors flex items-center justify-center gap-2">
+                                Read Abstract <span class="material-symbols-outlined text-sm">description</span>
+</button>
+</div>
+</div>
+<!-- Decorative glow -->
+<div class="absolute top-0 right-0 w-64 h-64 bg-primary/10 blur-[100px] -mr-32 -mt-32"></div>
+</div>
+</div>
+</section>
+<!-- Skills Section -->
+<section class="py-24 px-6" id="skills">
+<div class="max-w-7xl mx-auto text-center mb-16">
+<h2 class="text-3xl font-bold mb-4">Technical Expertise</h2>
+<p class="text-slate-500 max-w-xl mx-auto">Categorized overview of the technologies I've mastered during my academic career.</p>
+</div>
+<div class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Programming -->
+<div class="glass-card p-8 rounded-2xl border-t-2 border-t-primary/40">
+<span class="material-symbols-outlined text-primary mb-4 text-3xl">code</span>
+<h3 class="text-lg font-bold mb-4">Programming</h3>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 bg-white/5 rounded-full text-xs font-medium text-slate-300">Python</span>
+<span class="px-3 py-1 bg-white/5 rounded-full text-xs font-medium text-slate-300">C#</span>
+<span class="px-3 py-1 bg-white/5 rounded-full text-xs font-medium text-slate-300">C++</span>
+<span class="px-3 py-1 bg-white/5 rounded-full text-xs font-medium text-slate-300">SQL</span>
+</div>
+</div>
+<!-- ML & Data -->
+<div class="glass-card p-8 rounded-2xl border-t-2 border-t-blue-400/40">
+<span class="material-symbols-outlined text-blue-400 mb-4 text-3xl">hub</span>
+<h3 class="text-lg font-bold mb-4">ML &amp; Data</h3>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 bg-white/5 rounded-full text-xs font-medium text-slate-300">Pandas</span>
+<span class="px-3 py-1 bg-white/5 rounded-full text-xs font-medium text-slate-300">Sklearn</span>
+<span class="px-3 py-1 bg-white/5 rounded-full text-xs font-medium text-slate-300">XGBoost</span>
+<span class="px-3 py-1 bg-white/5 rounded-full text-xs font-medium text-slate-300">NumPy</span>
+</div>
+</div>
+<!-- Web -->
+<div class="glass-card p-8 rounded-2xl border-t-2 border-t-green-400/40">
+<span class="material-symbols-outlined text-green-400 mb-4 text-3xl">web</span>
+<h3 class="text-lg font-bold mb-4">Web Stack</h3>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 bg-white/5 rounded-full text-xs font-medium text-slate-300">Flask</span>
+<span class="px-3 py-1 bg-white/5 rounded-full text-xs font-medium text-slate-300">HTML5</span>
+<span class="px-3 py-1 bg-white/5 rounded-full text-xs font-medium text-slate-300">Tailwind</span>
+<span class="px-3 py-1 bg-white/5 rounded-full text-xs font-medium text-slate-300">REST API</span>
+</div>
+</div>
+<!-- Tools -->
+<div class="glass-card p-8 rounded-2xl border-t-2 border-t-purple-400/40">
+<span class="material-symbols-outlined text-purple-400 mb-4 text-3xl">architecture</span>
+<h3 class="text-lg font-bold mb-4">Developer Tools</h3>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 bg-white/5 rounded-full text-xs font-medium text-slate-300">Git</span>
+<span class="px-3 py-1 bg-white/5 rounded-full text-xs font-medium text-slate-300">VS Code</span>
+<span class="px-3 py-1 bg-white/5 rounded-full text-xs font-medium text-slate-300">Colab</span>
+<span class="px-3 py-1 bg-white/5 rounded-full text-xs font-medium text-slate-300">Linux</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact Section -->
+<footer class="py-24 px-6 border-t border-white/5 bg-background-dark" id="contact">
+<div class="max-w-7xl mx-auto">
+<div class="grid md:grid-cols-2 gap-16">
+<div>
+<h2 class="text-3xl font-bold mb-6">Get in Touch</h2>
+<p class="text-slate-400 mb-10 leading-relaxed text-lg">
+                            Whether it's a research collaboration, a job opportunity, or just a coffee chat about AI—my inbox is always open.
+                        </p>
+<div class="space-y-6">
+<a class="flex items-center gap-4 text-slate-300 hover:text-primary transition-colors group" href="mailto:hello@example.com">
+<div class="size-12 rounded-full glass-card flex items-center justify-center group-hover:bg-primary transition-all">
+<span class="material-symbols-outlined">mail</span>
+</div>
+<span>hello@researcher.ai</span>
+</a>
+<a class="flex items-center gap-4 text-slate-300 hover:text-primary transition-colors group" href="#">
+<div class="size-12 rounded-full glass-card flex items-center justify-center group-hover:bg-primary transition-all">
+<span class="material-symbols-outlined">share</span>
+</div>
+<span>LinkedIn /ai-researcher</span>
+</a>
+<a class="flex items-center gap-4 text-slate-300 hover:text-primary transition-colors group" href="#">
+<div class="size-12 rounded-full glass-card flex items-center justify-center group-hover:bg-primary transition-all">
+<span class="material-symbols-outlined">terminal</span>
+</div>
+<span>GitHub /cs-student</span>
+</a>
+</div>
+</div>
+<div class="glass-card rounded-2xl p-8">
+<form class="space-y-4">
+<div>
+<label class="block text-xs font-bold uppercase tracking-widest text-slate-500 mb-2">Name</label>
+<input class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white focus:border-primary outline-none transition-all" type="text"/>
+</div>
+<div>
+<label class="block text-xs font-bold uppercase tracking-widest text-slate-500 mb-2">Email</label>
+<input class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white focus:border-primary outline-none transition-all" type="email"/>
+</div>
+<div>
+<label class="block text-xs font-bold uppercase tracking-widest text-slate-500 mb-2">Message</label>
+<textarea class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white focus:border-primary outline-none transition-all" rows="4"></textarea>
+</div>
+<button class="w-full py-4 bg-primary text-white font-bold rounded-xl hover:bg-primary/90 transition-all" type="submit">Send Message</button>
+</form>
+</div>
+</div>
+<div class="mt-24 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-slate-500 text-sm">© 2024 Computer Science Student Portfolio. Built with passion for AI.</p>
+<div class="flex gap-6 text-slate-500">
+<a class="hover:text-white transition-colors text-sm" href="#">Privacy Policy</a>
+<a class="hover:text-white transition-colors text-sm" href="#">Terms</a>
+</div>
+</div>
+</div>
+</footer>
+</main>
+</body></html>
